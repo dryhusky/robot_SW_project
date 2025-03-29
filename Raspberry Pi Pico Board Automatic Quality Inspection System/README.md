@@ -1,125 +1,78 @@
 ## 이미지
-<img width="757" alt="컨베이어 기반 매니퓰레이션 시스템1" src="https://github.com/user-attachments/assets/a699b358-dd7a-48fd-a31f-1806c8692f06" />
+![Vision AI 기반 컨베이어 벨트 객체 인식 딥러닝 모델 최적화1](https://github.com/user-attachments/assets/971b72a1-97d2-45d4-bf32-06ebc8631760)
+<img width="380" alt="Vision AI 기반 컨베이어 벨트 객체 인식 딥러닝 모델 최적화2" src="https://github.com/user-attachments/assets/53fd9594-456d-4049-8ced-1fb092ffd2f9" />
 
-<img width="599" alt="컨베이어 기반 매니퓰레이션 시스템2" src="https://github.com/user-attachments/assets/4956c592-a2f4-4f37-93c7-48cb83521f66" />
-
-<img width="724" alt="컨베이어 기반 매니퓰레이션 시스템3" src="https://github.com/user-attachments/assets/8f9491e5-16f5-47cf-8887-ad59f189d504" />
 
 
 ## **프로젝트 개요**
 
-TurtleBot3 로봇과 컨베이어 벨트를 결합한 통합 자동화 시스템으로
+- 컨베이어 벨트에서 보드 이미지 촬영
+- Superb AI에서 제공해주는 API로 부품 감지
+- 필요한 모든 부품이 존재하는지 확인
+- 검사 결과를 웹 인터페이스로 표시
 
-컴퓨터 비전, 로봇 매니퓰레이션(로봇 제어), 컨베이어 제어, GUI를 결합하여 물체 감지, 분류, 운반 작업을 자동화하는 솔루션을 제공합니다.
+## 전체 시스템 FLOW
+
+1. 컨베이어 벨트가 제품을 이동시키다가 센서에 감지되면 멈춤
+2. 웹캠으로 제품 이미지 촬영 후 Vision AI로 부품 인식
+3. 불량 여부를 판단하여 파일명에 표시하고 저장
+4. 웹 인터페이스에서 해당 이미지와 분석 결과를 실시간으로 표시
+5. 컨베이어 벨트 재가동하여 다음 제품 준비
+
+## 학습에 사용한 데이터 셋
+
+<img width="1044" alt="Vision AI 기반 컨베이어 벨트 객체 인식 딥러닝 모델 최적화3" src="https://github.com/user-attachments/assets/e01f49da-4447-4738-ad07-bee58f6dff21" />
+
 
 ## **주요 기능**
 
-- **컨베이어 제어 시스템**
-    - 거리 기반 컨베이어 이동 제어
-    - 실시간 상태 모니터링 및 보고
-    - 시리얼 통신을 통한 아두이노 제어
-    - ROS2 토픽을 통한 상태 및 명령 인터페이스
-- **객체 감지 및 인식**
-    - YOLO 기반 객체 감지 및 분류
-    - ArUco 마커 감지 및 위치 추적
-    - 실시간 이미지 처리 및 시각화
-- **로봇 제어 및 매니퓰레이션**
-    - MoveIt 기반 로봇 팔 제어
-    - 마커 기반 네비게이션
-    - 다양한 작업(빨간색/파란색 물체 분류) 자동화
-- **사용자 인터페이스**
-    - PyQt5 기반 직관적 GUI
-    - 작업 선택 및 실행 제어
-    - 실시간 카메라 피드 및 상태 디스플레이
-    - 컨베이어 거리 제어
+### 자동화된 보드 이미지 캡처
+
+- 컨베이어 벨트의 적외선 센서가 보드 감지 시 자동 촬영
+- 촬영 이미지에서 분석에 필요한 영역만 자동 크롭 처리
+
+### Computer Vision API 연동
+
+- Superb AI 엔드포인트를 통한 실시간 부품 인식(YOLO_v6)
+- 이미지 어노테이션 플랫폼에서 학습 시킨 7종 필수 부품(CHIPSET, BOOTSEL, OSCILLATOR, HOLE(4개), HEADER, USB, RASPBERRY PICO) 감지
+- 인식된 부품에 고유 색상의 바운딩 박스 표시
+
+### 부품 누락 자동 검사
+
+- 검사 대상 보드에 필요한 모든 부품 존재 여부 확인
+- 누락된 부품 목록 자동 생성 및 결과 정리
+- 정상/불량 판정 자동화
+
+### Streamlit 기반 웹 모니터링
+
+- 검사 결과 실시간 표시 웹 인터페이스 제공
+- 검사 시작/중지 기능으로 프로세스 제어
+- 검사 시간 및 보드 상태 정보 표시
+
+### 컨베이어 벨트 자동 제어
+
+- 시리얼 통신을 통한 컨베이어 벨트 제어
+- 보드 감지 → 정지 → 촬영 → 검사 → 재가동 자동화
+- 검사 과정에 맞춘 타이밍 제어
 
 ## 시연 영상
 
-유튜브 업로드
-
-https://youtu.be/5Q_HrRy45Y0
-
-gui에서 ‘job2’명령을 주게 되면, 
-
-터틀봇은 red블록 1개와 blue블록 2개를 집게 됨.
-
- 
-
-https://youtu.be/CF1k3llyGnQ
+https://youtube.com/shorts/iA3jx0RSfWw
 
 ## **코드 설명**
 
-### 1. 컨베이어 제어 (`conveyer5.py`)
+### 컨베이어 및 검사 시스템(conveyor_system.py)
 
-```python
-class ConveyorController(Node):
-    # ROS2 노드로 컨베이어 제어 담당
-    # 시리얼 통신으로 아두이노와 연결
-    # 'conveyor/status' 토픽 발행
-    # 'conveyor/control' 토픽 구독하여 명령 처리
-```
+- **하드웨어 연동**: 시리얼 통신(`/dev/ttyACM0`)으로 컨베이어 벨트 제어
+- **센서 기반 캡처**: 적외선 센서(`data == b"0"`)가 제품 감지 시 웹캠으로 이미지 촬영
+- **Vision AI 분석**: 캡처된 이미지를 Vision AI API로 전송하여 부품 인식
+    - 필수 부품: CHIPSET, BOOTSEL, OSCILLATOR, HOLE(4개), HEADER, USB, RASPBERRY PICO
+- **불량품 판정**: 누락된 부품이 있으면 불량으로 표시하고 파일명에 해당 정보 포함
+- **이미지 저장**: 처리된 이미지를 `processed_images` 폴더에 저장
 
-- QThread를 활용한 멀티스레딩 구현
-- 시리얼 연결 자동 복구 메커니즘
-- JSON 포맷 명령 처리 구조
+### 웹 인터페이스(app_streamlit.py)
 
-### 2. GUI 인터페이스 (`gui10.py`)
-
-```python
-class WindowClass(QMainWindow, form_class):
-    # PyQt5 기반 GUI 인터페이스
-    # 작업 선택 및 실행 기능
-    # 실시간 카메라 피드 표시
-    # 로봇 및 컨베이어 상태 표시
-```
-
-- 멀티스레딩 ROS2 통신 구현
-- 다양한 작업(job1, job2, job3) 선택 및 실행
-- 컨베이어 거리 제어 인터페이스
-
-### 3. 컴퓨터 비전 모듈
-
-ArUco 마커 감지 (`aruco_detector.py`)
-
-```python
-class ArucoMarkerDetector(Node):
-    # 카메라 이미지에서 ArUco 마커 감지
-    # 마커 위치 및 자세 계산
-    # 'detected_markers' 토픽으로 마커 정보 발행
-    
-	  def detect_markers(image, camera_matrix, dist_coeffs, marker_size):
-	    aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_1000)
-	    parameters = cv2.aruco.DetectorParameters()
-	    detector = cv2.aruco.ArucoDetector(aruco_dict, parameters)
-	    corners, ids, _ = detector.detectMarkers(image)
-```
-
-- 카메라 캘리브레이션 및 왜곡 보정
-- 아루코 마커를 통해 3D 위치 추정 기능
-- target_marker_id를 판단 기준으로 아루코 마커를 분류
-
-YOLO 객체 감지 (`yolo_detector.py`)
-
-```python
-class YoloDetect(Node):
-    # YOLOv8 기반 객체 감지
-    # 객체 위치를 물리적 단위(mm)로 변환
-    # 감지 결과 시각화 및 발행
-```
-
-- YOLO_v8 모델에 파인튜닝을 진행
-- 카메라 캘리브레이션 매트릭스를 이용하여 카메라 이미지 왜곡 보정
-- 픽셀 좌표를 물리적 거리로 변환(pix_2_mm = 실제 거리(mm) / 픽셀 수)
-
-### 4. 로봇 제어 모듈
-
-ArUco 기반 이동 (`aruco_move.py`)
-
-```python
-class ArucoMarkerListener(Node):
-    # 감지된 마커 정보 기반 로봇 이동
-    # 목표 마커까지의 거리에 따라 속도 제어
-```
-
-- TurtleBot 팔 제어
-- MoveIt 프레임워크를 사용한 로봇 팔 움직임 계획 및 실행
+- **Streamlit 기반 웹 대시보드**: 사용자에게 제품 검사 결과를 실시간으로 보여줌
+- **자동 이미지 감지**: `processed_images` 폴더의 새 이미지 파일을 자동으로 발견하고 표시
+- **상태 관리**: 검사 시작/중지 기능, 오류 복구 메커니즘 제공
+- **파일 처리**: 표시된 이미지를 `processed_images_end` 폴더로 자동 이동하여 관리
