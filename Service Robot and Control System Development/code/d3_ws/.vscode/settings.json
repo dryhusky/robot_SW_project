@@ -1,0 +1,42 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/han/d3_ws/install/auto_move_pkg/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/ros_study_py/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/ex_calculator/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages",
+        "/home/han/ros2_ws/install/ros2env/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/pose_goal_waypoint/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/amr_autonomous/lib/python3.10/site-packages",
+        "/home/han/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/han/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/han/turtlebot3_ws/build/turtlebot3_example",
+        "/home/han/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/han/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/han/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/han/qos_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/han/rqt_ws/install/rqt_example/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/han/d3_ws/install/auto_move_pkg/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/ros_study_py/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/ex_calculator/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages",
+        "/home/han/ros2_ws/install/ros2env/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/pose_goal_waypoint/lib/python3.10/site-packages",
+        "/home/han/ros2_ws/install/amr_autonomous/lib/python3.10/site-packages",
+        "/home/han/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/han/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/han/turtlebot3_ws/build/turtlebot3_example",
+        "/home/han/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/han/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/han/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/han/qos_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/han/rqt_ws/install/rqt_example/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

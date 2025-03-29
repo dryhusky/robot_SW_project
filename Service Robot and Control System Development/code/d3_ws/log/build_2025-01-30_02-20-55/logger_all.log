@@ -1,0 +1,132 @@
+[2.294s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.295s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f62fadd3130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f62faf9afb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f62faf9afb0>>)
+[6.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.070s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.070s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.073s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/han/d3_ws'
+[6.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.213s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.223s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.231s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extensions ['ignore', 'ignore_ament_install']
+[6.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extension 'ignore'
+[6.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extension 'ignore_ament_install'
+[6.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extensions ['colcon_pkg']
+[6.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extension 'colcon_pkg'
+[6.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extensions ['colcon_meta']
+[6.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extension 'colcon_meta'
+[6.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extensions ['ros']
+[6.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_move_pkg) by extension 'ros'
+[6.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_move_pkg' with type 'ros.ament_python' and name 'auto_move_pkg'
+[6.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.652s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/han/turtlebot3_ws/install
+[6.663s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/han/ros2_ws/install
+[6.667s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/han/qos_ws/install
+[6.675s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/han/rqt_ws/install
+[6.691s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[6.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.402s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'cmake_args' from command line to 'None'
+[7.402s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'cmake_target' from command line to 'None'
+[7.403s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.403s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[7.403s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[7.403s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[7.404s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[7.404s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[7.404s] Level 5:colcon.colcon_core.verb:set package 'auto_move_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.405s] DEBUG:colcon.colcon_core.verb:Building package 'auto_move_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/han/d3_ws/build/auto_move_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/han/d3_ws/install/auto_move_pkg', 'merge_install': False, 'path': '/home/han/d3_ws/src/auto_move_pkg', 'symlink_install': False, 'test_result_base': None}
+[7.407s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.418s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/han/d3_ws/src/auto_move_pkg' with build type 'ament_python'
+[7.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_move_pkg', 'ament_prefix_path')
+[7.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/hook/ament_prefix_path.ps1'
+[7.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/hook/ament_prefix_path.dsv'
+[7.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/hook/ament_prefix_path.sh'
+[7.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.903s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'auto_move_pkg' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[11.915s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'auto_move_pkg' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[11.916s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/han/d3_ws/src/auto_move_pkg'
+[11.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.924s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/han/d3_ws/src/auto_move_pkg': PYTHONPATH=/home/han/d3_ws/build/auto_move_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/han/d3_ws/install/auto_move_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_move_pkg build --build-base /home/han/d3_ws/build/auto_move_pkg/build install --record /home/han/d3_ws/build/auto_move_pkg/install.log --single-version-externally-managed
+[21.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/han/d3_ws/src/auto_move_pkg' returned '0': PYTHONPATH=/home/han/d3_ws/build/auto_move_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/han/d3_ws/install/auto_move_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_move_pkg build --build-base /home/han/d3_ws/build/auto_move_pkg/build install --record /home/han/d3_ws/build/auto_move_pkg/install.log --single-version-externally-managed
+[21.957s] Level 1:colcon.colcon_core.environment:checking '/home/han/d3_ws/install/auto_move_pkg' for CMake module files
+[21.966s] Level 1:colcon.colcon_core.environment:checking '/home/han/d3_ws/install/auto_move_pkg' for CMake config files
+[21.974s] Level 1:colcon.colcon_core.environment:checking '/home/han/d3_ws/install/auto_move_pkg/lib'
+[21.976s] Level 1:colcon.colcon_core.environment:checking '/home/han/d3_ws/install/auto_move_pkg/bin'
+[21.976s] Level 1:colcon.colcon_core.environment:checking '/home/han/d3_ws/install/auto_move_pkg/lib/pkgconfig/auto_move_pkg.pc'
+[21.977s] Level 1:colcon.colcon_core.environment:checking '/home/han/d3_ws/install/auto_move_pkg/lib/python3.10/site-packages'
+[21.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_move_pkg', 'pythonpath')
+[21.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/hook/pythonpath.ps1'
+[21.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/hook/pythonpath.dsv'
+[21.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/hook/pythonpath.sh'
+[21.987s] Level 1:colcon.colcon_core.environment:checking '/home/han/d3_ws/install/auto_move_pkg/bin'
+[21.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_move_pkg)
+[21.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/package.ps1'
+[21.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/package.dsv'
+[22.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/package.sh'
+[22.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/package.bash'
+[22.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/han/d3_ws/install/auto_move_pkg/share/auto_move_pkg/package.zsh'
+[22.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/han/d3_ws/install/auto_move_pkg/share/colcon-core/packages/auto_move_pkg)
+[22.065s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.068s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.071s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.148s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.148s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.149s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.312s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/han/d3_ws/install/local_setup.ps1'
+[22.332s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/han/d3_ws/install/_local_setup_util_ps1.py'
+[22.351s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/han/d3_ws/install/setup.ps1'
+[22.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/han/d3_ws/install/local_setup.sh'
+[22.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/han/d3_ws/install/_local_setup_util_sh.py'
+[22.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/han/d3_ws/install/setup.sh'
+[22.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/han/d3_ws/install/local_setup.bash'
+[22.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/han/d3_ws/install/setup.bash'
+[22.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/han/d3_ws/install/local_setup.zsh'
+[22.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/han/d3_ws/install/setup.zsh'

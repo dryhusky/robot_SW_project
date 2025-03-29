@@ -1,0 +1,3 @@
+[console_scripts]
+auto_move = auto_move_pkg.auto_move:main
+

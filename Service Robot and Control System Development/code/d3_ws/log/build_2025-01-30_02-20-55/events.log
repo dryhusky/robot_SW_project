@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.007084] (auto_move_pkg) JobQueued: {'identifier': 'auto_move_pkg', 'dependencies': OrderedDict()}
+[0.008760] (auto_move_pkg) JobStarted: {'identifier': 'auto_move_pkg'}
+[0.098016] (-) TimerEvent: {}
+[0.199861] (-) TimerEvent: {}
+[0.302622] (-) TimerEvent: {}
+[0.408443] (-) TimerEvent: {}
+[0.510729] (-) TimerEvent: {}
+[0.612127] (-) TimerEvent: {}
+[0.713931] (-) TimerEvent: {}
+[0.816300] (-) TimerEvent: {}
+[0.917541] (-) TimerEvent: {}
+[1.018999] (-) TimerEvent: {}
+[1.120606] (-) TimerEvent: {}
+[1.223420] (-) TimerEvent: {}
+[1.326502] (-) TimerEvent: {}
+[1.427820] (-) TimerEvent: {}
+[1.529823] (-) TimerEvent: {}
+[1.634759] (-) TimerEvent: {}
+[1.735867] (-) TimerEvent: {}
+[1.838439] (-) TimerEvent: {}
+[1.940290] (-) TimerEvent: {}
+[2.041691] (-) TimerEvent: {}
+[2.147161] (-) TimerEvent: {}
+[2.251896] (-) TimerEvent: {}
+[2.357524] (-) TimerEvent: {}
+[2.461660] (-) TimerEvent: {}
+[2.564121] (-) TimerEvent: {}
+[2.671376] (-) TimerEvent: {}
+[2.773637] (-) TimerEvent: {}
+[2.876512] (-) TimerEvent: {}
+[2.977729] (-) TimerEvent: {}
+[3.080579] (-) TimerEvent: {}
+[3.185334] (-) TimerEvent: {}
+[3.286684] (-) TimerEvent: {}
+[3.389533] (-) TimerEvent: {}
+[3.493126] (-) TimerEvent: {}
+[3.594302] (-) TimerEvent: {}
+[3.697554] (-) TimerEvent: {}
+[3.800167] (-) TimerEvent: {}
+[3.903482] (-) TimerEvent: {}
+[4.006289] (-) TimerEvent: {}
+[4.109766] (-) TimerEvent: {}
+[4.211603] (-) TimerEvent: {}
+[4.316946] (-) TimerEvent: {}
+[4.420796] (-) TimerEvent: {}
+[4.522762] (-) TimerEvent: {}
+[4.626710] (-) TimerEvent: {}
+[4.732210] (-) TimerEvent: {}
+[4.840494] (-) TimerEvent: {}
+[4.942895] (-) TimerEvent: {}
+[5.049400] (-) TimerEvent: {}
+[5.152604] (-) TimerEvent: {}
+[5.256317] (-) TimerEvent: {}
+[5.359466] (-) TimerEvent: {}
+[5.460964] (-) TimerEvent: {}
+[5.563289] (-) TimerEvent: {}
+[5.664638] (-) TimerEvent: {}
+[5.766883] (-) TimerEvent: {}
+[5.870634] (-) TimerEvent: {}
+[5.975917] (-) TimerEvent: {}
+[6.079663] (-) TimerEvent: {}
+[6.181784] (-) TimerEvent: {}
+[6.284128] (-) TimerEvent: {}
+[6.384775] (-) TimerEvent: {}
+[6.487541] (-) TimerEvent: {}
+[6.592459] (-) TimerEvent: {}
+[6.693667] (-) TimerEvent: {}
+[6.796895] (-) TimerEvent: {}
+[6.897986] (-) TimerEvent: {}
+[6.998690] (-) TimerEvent: {}
+[7.103001] (-) TimerEvent: {}
+[7.203710] (-) TimerEvent: {}
+[7.308219] (-) TimerEvent: {}
+[7.409504] (-) TimerEvent: {}
+[7.511996] (-) TimerEvent: {}
+[7.615832] (-) TimerEvent: {}
+[7.723521] (-) TimerEvent: {}
+[7.826253] (-) TimerEvent: {}
+[7.930343] (-) TimerEvent: {}
+[8.038258] (-) TimerEvent: {}
+[8.140432] (-) TimerEvent: {}
+[8.244461] (-) TimerEvent: {}
+[8.346873] (-) TimerEvent: {}
+[8.452136] (-) TimerEvent: {}
+[8.555121] (-) TimerEvent: {}
+[8.661927] (-) TimerEvent: {}
+[8.763562] (-) TimerEvent: {}
+[8.865479] (-) TimerEvent: {}
+[8.969132] (-) TimerEvent: {}
+[9.069663] (-) TimerEvent: {}
+[9.171511] (-) TimerEvent: {}
+[9.273528] (-) TimerEvent: {}
+[9.380451] (-) TimerEvent: {}
+[9.481825] (-) TimerEvent: {}
+[9.583205] (-) TimerEvent: {}
+[9.684367] (-) TimerEvent: {}
+[9.786657] (-) TimerEvent: {}
+[9.892318] (-) TimerEvent: {}
+[9.998816] (-) TimerEvent: {}
+[10.103961] (-) TimerEvent: {}
+[10.129886] (auto_move_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/auto_move_pkg', 'build', '--build-base', '/home/han/d3_ws/build/auto_move_pkg/build', 'install', '--record', '/home/han/d3_ws/build/auto_move_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/han/d3_ws/src/auto_move_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'han', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/han/ros2_ws/install/ros_study_msgs/lib:/home/han/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/han/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/han/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/han', 'OLDPWD': '/home/han', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1571', 'SYSTEMD_EXEC_PID': '1744', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3540', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/han/turtlebot3_ws/install:/home/han/ros2_ws/install:/home/han/qos_ws/install:/home/han/rqt_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'han', 'JOURNAL_STREAM': '8:15474', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'han', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/han/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/han-15ZD980-TX5BK:@/tmp/.ICE-unix/1710,unix/han-15ZD980-TX5BK:/tmp/.ICE-unix/1710', 'INVOCATION_ID': '640bfb0ae1214e72a27b887d297c81da', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2L6Z02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '32', 'AMENT_PREFIX_PATH': '/home/han/ros2_ws/install/ros_study_py:/home/han/ros2_ws/install/ex_calculator:/home/han/ros2_ws/install/ros_study_msgs:/home/han/ros2_ws/install/ros2env:/home/han/ros2_ws/install/py_pubsub:/home/han/ros2_ws/install/amr_autonomous:/home/han/turtlebot3_ws/install/turtlebot3:/home/han/turtlebot3_ws/install/turtlebot3_teleop:/home/han/turtlebot3_ws/install/turtlebot3_simulations:/home/han/turtlebot3_ws/install/turtlebot3_bringup:/home/han/turtlebot3_ws/install/turtlebot3_node:/home/han/turtlebot3_ws/install/turtlebot3_navigation2:/home/han/turtlebot3_ws/install/turtlebot3_fake_node:/home/han/turtlebot3_ws/install/turtlebot3_example:/home/han/turtlebot3_ws/install/turtlebot3_msgs:/home/han/turtlebot3_ws/install/turtlebot3_gazebo:/home/han/turtlebot3_ws/install/turtlebot3_description:/home/han/turtlebot3_ws/install/turtlebot3_cartographer:/home/han/turtlebot3_ws/install/dynamixel_sdk_examples:/home/han/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/han/turtlebot3_ws/install/dynamixel_sdk:/home/han/qos_ws/install/py_pubsub:/home/han/rqt_ws/install/rqt_example:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:1c652ce7-bb72-47bf-a503-5e1e0437d1e3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/han/d3_ws/build/auto_move_pkg', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/han/d3_ws/build/auto_move_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/han/d3_ws/install/auto_move_pkg/lib/python3.10/site-packages:/home/han/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/han/ros2_ws/install/ex_calculator/lib/python3.10/site-packages:/home/han/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:/home/han/ros2_ws/install/ros2env/lib/python3.10/site-packages:/home/han/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/han/ros2_ws/install/pose_goal_waypoint/lib/python3.10/site-packages:/home/han/ros2_ws/install/amr_autonomous/lib/python3.10/site-packages:/home/han/turtlebot3_ws/build/turtlebot3_teleop:/home/han/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/han/turtlebot3_ws/build/turtlebot3_example:/home/han/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/han/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/han/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/han/qos_ws/install/py_pubsub/lib/python3.10/site-packages:/home/han/rqt_ws/install/rqt_example/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/han/ros2_ws/install/ros_study_msgs:/home/han/turtlebot3_ws/install/turtlebot3:/home/han/turtlebot3_ws/install/turtlebot3_simulations:/home/han/turtlebot3_ws/install/turtlebot3_bringup:/home/han/turtlebot3_ws/install/turtlebot3_node:/home/han/turtlebot3_ws/install/turtlebot3_navigation2:/home/han/turtlebot3_ws/install/turtlebot3_fake_node:/home/han/turtlebot3_ws/install/turtlebot3_msgs:/home/han/turtlebot3_ws/install/turtlebot3_gazebo:/home/han/turtlebot3_ws/install/turtlebot3_description:/home/han/turtlebot3_ws/install/turtlebot3_cartographer:/home/han/turtlebot3_ws/install/dynamixel_sdk_examples:/home/han/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/han/turtlebot3_ws/install/dynamixel_sdk:/home/han/rqt_ws/install/rqt_example'}, 'shell': False}
+[10.207317] (-) TimerEvent: {}
+[10.311734] (-) TimerEvent: {}
+[10.414894] (-) TimerEvent: {}
+[10.522476] (-) TimerEvent: {}
+[10.625847] (-) TimerEvent: {}
+[10.727559] (-) TimerEvent: {}
+[10.829179] (-) TimerEvent: {}
+[10.931952] (-) TimerEvent: {}
+[11.035952] (-) TimerEvent: {}
+[11.140948] (-) TimerEvent: {}
+[11.246674] (-) TimerEvent: {}
+[11.350101] (-) TimerEvent: {}
+[11.453804] (-) TimerEvent: {}
+[11.556274] (-) TimerEvent: {}
+[11.661251] (-) TimerEvent: {}
+[11.766361] (-) TimerEvent: {}
+[11.869602] (-) TimerEvent: {}
+[11.975436] (-) TimerEvent: {}
+[12.080782] (-) TimerEvent: {}
+[12.183870] (-) TimerEvent: {}
+[12.286253] (-) TimerEvent: {}
+[12.388403] (-) TimerEvent: {}
+[12.493273] (-) TimerEvent: {}
+[12.595259] (-) TimerEvent: {}
+[12.696025] (-) TimerEvent: {}
+[12.797556] (-) TimerEvent: {}
+[12.901320] (-) TimerEvent: {}
+[13.003381] (-) TimerEvent: {}
+[13.105825] (-) TimerEvent: {}
+[13.208979] (-) TimerEvent: {}
+[13.313902] (-) TimerEvent: {}
+[13.418930] (-) TimerEvent: {}
+[13.525157] (-) TimerEvent: {}
+[13.629484] (-) TimerEvent: {}
+[13.742374] (-) TimerEvent: {}
+[13.843416] (-) TimerEvent: {}
+[13.944955] (-) TimerEvent: {}
+[13.955589] (auto_move_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[13.958221] (auto_move_pkg) StdoutLine: {'line': b'writing ../../build/auto_move_pkg/auto_move_pkg.egg-info/PKG-INFO\n'}
+[13.967124] (auto_move_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/auto_move_pkg/auto_move_pkg.egg-info/dependency_links.txt\n'}
+[13.974702] (auto_move_pkg) StdoutLine: {'line': b'writing entry points to ../../build/auto_move_pkg/auto_move_pkg.egg-info/entry_points.txt\n'}
+[13.976937] (auto_move_pkg) StdoutLine: {'line': b'writing requirements to ../../build/auto_move_pkg/auto_move_pkg.egg-info/requires.txt\n'}
+[13.982157] (auto_move_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/auto_move_pkg/auto_move_pkg.egg-info/top_level.txt\n'}
+[14.007184] (auto_move_pkg) StdoutLine: {'line': b"reading manifest file '../../build/auto_move_pkg/auto_move_pkg.egg-info/SOURCES.txt'\n"}
+[14.011119] (auto_move_pkg) StdoutLine: {'line': b"writing manifest file '../../build/auto_move_pkg/auto_move_pkg.egg-info/SOURCES.txt'\n"}
+[14.020961] (auto_move_pkg) StdoutLine: {'line': b'running build\n'}
+[14.022774] (auto_move_pkg) StdoutLine: {'line': b'running build_py\n'}
+[14.023124] (auto_move_pkg) StdoutLine: {'line': b'running install\n'}
+[14.028137] (auto_move_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[14.043861] (auto_move_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.047315] (-) TimerEvent: {}
+[14.060517] (auto_move_pkg) StdoutLine: {'line': b"removing '/home/han/d3_ws/install/auto_move_pkg/lib/python3.10/site-packages/auto_move_pkg-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[14.061438] (auto_move_pkg) StdoutLine: {'line': b'Copying ../../build/auto_move_pkg/auto_move_pkg.egg-info to /home/han/d3_ws/install/auto_move_pkg/lib/python3.10/site-packages/auto_move_pkg-0.1.0-py3.10.egg-info\n'}
+[14.066319] (auto_move_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[14.148215] (-) TimerEvent: {}
+[14.246645] (auto_move_pkg) StdoutLine: {'line': b'Installing auto_move script to /home/han/d3_ws/install/auto_move_pkg/lib/auto_move_pkg\n'}
+[14.248679] (-) TimerEvent: {}
+[14.254904] (auto_move_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/han/d3_ws/build/auto_move_pkg/install.log'\n"}
+[14.351973] (-) TimerEvent: {}
+[14.452735] (-) TimerEvent: {}
+[14.497057] (auto_move_pkg) CommandEnded: {'returncode': 0}
+[14.556204] (-) TimerEvent: {}
+[14.639232] (auto_move_pkg) JobEnded: {'identifier': 'auto_move_pkg', 'rc': 0}
+[14.653606] (-) EventReactorShutdown: {}
