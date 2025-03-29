@@ -1,0 +1,5 @@
+[console_scripts]
+init_pose = robot_navigation.init_pose:main
+send_goal_stop = robot_navigation.send_goal_stop:main
+send_waypoint = robot_navigation.send_waypoint:main
+
