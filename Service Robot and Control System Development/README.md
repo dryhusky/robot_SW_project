@@ -1,16 +1,20 @@
 ## 이미지
 
 ![서비스 로봇 및 관제 시스템1](https://github.com/user-attachments/assets/ad8978d6-6492-449f-98b8-944f05dca1ba)
-<6번 테이블 조리가 완료되어 로봇이 음식과 함께6번 테이블로 이동>
+
+6번 테이블 조리가 완료되어 로봇이 음식과 함께6번 테이블로 이동
 
 ![서비스 로봇 및 관제 시스템2](https://github.com/user-attachments/assets/a15cc748-3913-4d5e-8f48-19004f0f969c)
-<6번 테이블에 음식 배달 후 초기위치로 복귀>
+
+6번 테이블에 음식 배달 후 초기위치로 복귀
 
 ![서비스 로봇 및 관제 시스템3](https://github.com/user-attachments/assets/995810e9-5880-4401-9c61-0fdd81f58784)
-<rviz2>
+
+rviz(3D시각화 툴)
 
 <img width="1125" alt="restaurant_db" src="https://github.com/user-attachments/assets/01b9520a-c832-44ca-966f-266d8ba36055" />
-<DB table>
+
+restaurant_db 일부
 
 
 
